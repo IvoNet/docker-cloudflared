@@ -25,4 +25,4 @@ ENTRYPOINT ["/usr/local/bin/cloudflared", "--no-autoupdate", "-origincert", "/et
 
 VOLUME ["/etc/cloudflared"]
 
-CMD ["--config", "/etc/cloudflared/config.yaml", "list"]
+CMD ["--help"]
